@@ -1,4 +1,4 @@
-# open source for Spiking-Multiscale-Attention
+# Open Source for Spiking-Multiscale-Attention
 We have provided training programs and pre trained weights for the DVS128 Gesture, CIFAR10-DVS and N-Caltech101 datasets.
 
 ## Pre training weights(one GPU can load and run.)

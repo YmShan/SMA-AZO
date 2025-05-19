@@ -12,6 +12,7 @@ The appendix of the article can be accessed here: [link](https://drive.google.co
 | SMA-VGG | N-Caltech101 | [link](https://drive.google.com/file/d/1IBwLOPAtwJBbB7jwg9dB0TdJbMgFoD49/view?usp=drive_link)    |
 | SMA-AZO-VGG | N-Caltech101 | [link](https://drive.google.com/file/d/1-YdptrxyELPF17qpRNVA54miwnsVZTGX/view?usp=drive_link)    |
 
+PS: I have conducted an additional verification and can hereby confirm that all connections are now directly accessible without the need for prior authorization. Should you encounter any difficulties, please do not hesitate to contact me promptly. I extend my sincere apologies to the three colleagues who previously sought to obtain the weights and were required to submit formal applications to me.
 
 ## Operating environment
 As described in the appendix of the paper, we utilized three devices in our experiments. Device one was dedicated to conducting experiments on the DVS128 Gesture, CIFAR10-DVS, and N-Caltech101 datasets. Device two was allocated for experiments involving the Imagenet-1K dataset using the ResNet18/34 architecture. Lastly, Device three was employed for experiments on the Imagenet-1K dataset using the ResNet104 network.
@@ -49,10 +50,13 @@ A method save_every_frame_of_an_entire_DVS_dataset has been added that requires 
 
 ## Please Citing
 ```
-@article{shan2024advancing,
-  title={Advancing Spiking Neural Networks towards Multiscale Spatiotemporal Interaction Learning},
+@inproceedings{shan2025advancing,
+  title={Advancing spiking neural networks towards multiscale spatiotemporal interaction learning},
   author={Shan, Yimeng and Zhang, Malu and Zhu, Rui-jie and Qiu, Xuerui and Eshraghian, Jason K and Qu, Haicheng},
-  journal={arXiv preprint arXiv:2405.13672},
-  year={2024}
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={39},
+  number={2},
+  pages={1501--1509},
+  year={2025}
 }
 ```
